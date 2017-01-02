@@ -19,4 +19,6 @@ cat >> /etc/fstab <<  EOF
 /dev/vgroup/myvol /mnt/mpoint ext4  defaults  0 0
 EOF
 rm -rf /etc/yum.repos.d/*.repo
+echo "Iron_Man" | passwd --stdin root
+echo "Iron_Man" | passwd --stdin student
 init 6
